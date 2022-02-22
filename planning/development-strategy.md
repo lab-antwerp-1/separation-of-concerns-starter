@@ -18,6 +18,19 @@
 
 # Development Strategy
 
+## planning documents
+
+> As a user/developer I can read a readme of the project and follow the development process.
+
+- [ ] _there is a readme file_
+- [ ] _there is a communication plan_
+- [ ] _there is a constraints document_
+- [ ] _there is a backlog file_
+- [ ] _there is a wireframe link_
+- [ ] _there is a development strategy_
+- [ ] _there is a retrospective_
+
+
 We want to create a shopping list, where the user can add, delete or edit the items he/she wants to buy
 
 The website will be developed through the following issues:
