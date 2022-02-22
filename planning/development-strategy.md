@@ -30,7 +30,6 @@
 - [ ] _there is a development strategy_
 - [ ] _there is a retrospective_
 
-
 We want to create a shopping list, where the user can add, delete or edit the items he/she wants to buy
 
 The website will be developed through the following issues:
@@ -59,20 +58,20 @@ The website will be developed through the following issues:
 
 ---
 
-2- Navigation bar:
+2- The add-button:
 
-- As a user I can see 3 buttons on the navigation bar. [Add] [Delete] [Edit]
-  - [ ] _there is a navigation bar under the title on the page_
-  - this will be developed on the branch `2-nav`.
+- As a user I can see a button [Add] 
+- _there is 1 buttons under the title_
+- this will be developed on the branch `2-add-button`.
 
 **Issues:**
 
     `1. HTML:`
-    - [ ] use `nav` to include the navigation bar.
-    - [ ] use `ul` and `li` to add the navigation links.
+    - [ ] use `button` to include the add-button.
+    
 
     `2- CSS:`
-    - [ ] use `center` align to place the navbar.
+    - [ ] use `left` align to place the button.
     - [ ] use `` color.
     - [ ] use `Arial` as font type.
 
@@ -81,12 +80,55 @@ The website will be developed through the following issues:
     -  `type: logic`
     -  `type: handlers`
 
----
-3- Logo:
+3- The remove-button:
+
+- As a user I can see a button [Remove] 
+- _there is 1 buttons under the title_
+- this will be developed on the branch `3-remove-button`.
+
+**Issues:**
+
+    `1. HTML:`
+    - [ ] use `button` to include the remove-button.
+    
+
+    `2- CSS:`
+    - [ ] use `center` align to place the button.
+    - [ ] use `` color.
+    - [ ] use `Arial` as font type.
+
+    `3- JS:`
+    -  `type: components`
+    -  `type: logic`
+    -  `type: handlers`
+
+4- The edit-button:
+
+- As a user I can see a button [Edit] 
+- _there is 1 buttons under the title_
+- this will be developed on the branch `4-edit-button`.
+
+**Issues:**
+
+    `1. HTML:`
+    - [ ] use `button` to include the remove-button.
+    
+
+    `2- CSS:`
+    - [ ] use `right` align to place the button.
+    - [ ] use `` color.
+    - [ ] use `Arial` as font type.
+
+    `3- JS:`
+    -  `type: components`
+    -  `type: logic`
+    -  `type: handlers`
+
+5- Logo:
 
 - As a user I can see the supermarket logo
 - [ ] The logo will be on the left of the title
-- this will be developed on the branch `3-logo`.
+- this will be developed on the branch `5-logo`.
 
 **Issues:**
 
@@ -101,12 +143,12 @@ The website will be developed through the following issues:
     -  `type: logic`
     -  `type: handlers`
 
-4- Home page body [the list]:
+6- Home page body [the list]:
 
 - As I user I can see a textbox where I can write my items.
   - this will be on the home page.
   - [ ] _there is a short text that tells the user to enter an item
-  - this will be developed on the branch `4-list`.
+  - this will be developed on the branch `6-list`.
 
 **Issues:**
 
@@ -124,11 +166,11 @@ The website will be developed through the following issues:
 
 ## Should Haves
 
-5- Footer:
+7- Footer:
 
 - As a user I can get in contact with the supermarket.
 - [ ] _there is a footer with contact information_
-this will be developed on the branch `5-footer`.
+this will be developed on the branch `7-footer`.
 
 **Issues:**
 
@@ -146,4 +188,69 @@ this will be developed on the branch `5-footer`.
     -  `type: logic`
     -  `type: handlers`
 
+8- Search button:
+
+- As a user I can see a search button, to search for an item on the list.
+- [ ] _there is a button besides the textbox_
+this will be developed on the branch `8-search`.
+
+**Issues:**
+
+    `1. HTML:`
+    - [ ] use `button` to include the search button.
+    - [ ] use `icon` to show an icon on the button .
+
+
+    `2- CSS:`
+    - [ ] use ` ` color for the footer.
+    - [ ] use ` ` alignement.
+
+    `3- JS:`
+    -  `type: components`
+    -  `type: logic`
+    -  `type: handlers`
+
+9- The share-button:
+
+- As a user I can see a button [Share] 
+- _there is 1 buttons under the title_
+- this will be developed on the branch `9-share-button`.
+
+**Issues:**
+
+    `1. HTML:`
+    - [ ] use `button` to include the remove-button.
+    
+
+    `2- CSS:`
+    - [ ] use `center` align to place the button under the list.
+    - [ ] use `` color.
+    - [ ] use `Arial` as font type.
+
+    `3- JS:`
+    -  `type: components`
+    -  `type: logic`
+    -  `type: handlers`
+
+3- The user profile:
+
+- As a user I can see a user profile  
+- _there is a user profile icon next to the  the title_
+- this will be developed on the branch `3-remove-button`.
+
+**Issues:**
+
+    `1. HTML:`
+    - [ ] use `button` to include the remove-button.
+    
+
+    `2- CSS:`
+    - [ ] use `center` align to place the button.
+    - [ ] use `` color.
+    - [ ] use `Arial` as font type.
+
+    `3- JS:`
+    -  `type: components`
+    -  `type: logic`
+    -  `type: handlers`
 ---
