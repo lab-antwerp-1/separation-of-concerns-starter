@@ -60,7 +60,7 @@ The website will be developed through the following issues:
 
 2- The add-button:
 
-- As a user I can see a button [Add] 
+- As a user I can see a button [Add]
 - _there is 1 buttons under the title_
 - this will be developed on the branch `2-add-button`.
 
@@ -82,7 +82,7 @@ The website will be developed through the following issues:
 
 3- The remove-button:
 
-- As a user I can see a button [Remove] 
+- As a user I can see a button [Remove]
 - _there is 1 buttons under the title_
 - this will be developed on the branch `3-remove-button`.
 
@@ -104,7 +104,7 @@ The website will be developed through the following issues:
 
 4- The edit-button:
 
-- As a user I can see a button [Edit] 
+- As a user I can see a button [Edit]
 - _there is 1 buttons under the title_
 - this will be developed on the branch `4-edit-button`.
 
@@ -212,7 +212,7 @@ this will be developed on the branch `8-search`.
 
 9- The share-button:
 
-- As a user I can see a button [Share] 
+- As a user I can see a button [Share]
 - _there is 1 buttons under the title_
 - this will be developed on the branch `9-share-button`.
 
@@ -232,20 +232,22 @@ this will be developed on the branch `8-search`.
     -  `type: logic`
     -  `type: handlers`
 
-3- The user profile:
+## Could Haves
+
+10- The user profile:
 
 - As a user I can see a user profile  
-- _there is a user profile icon next to the  the title_
-- this will be developed on the branch `3-remove-button`.
+- _there is a user profile icon next to the title_
+- this will be developed on the branch `10-user-profile`.
 
 **Issues:**
 
     `1. HTML:`
-    - [ ] use `button` to include the remove-button.
+    - [ ] use `img` to include the user profile .
     
 
     `2- CSS:`
-    - [ ] use `center` align to place the button.
+    - [ ] use `right` align to place the user profile next to the title.
     - [ ] use `` color.
     - [ ] use `Arial` as font type.
 
