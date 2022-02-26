@@ -1,3 +1,1 @@
-export const data = {
-  greeting: 'hello',
-};
+export const data = { products: [] };
