@@ -8,11 +8,11 @@ const idAdd = 'addBtn';
 listenerAdd(idAdd);
 // document.getElementById('addBtn').addEventListener('click', addProduct);
 
-const idRemove = 'removeBtn';
-listenerRemove(idRemove);
+// const idRemove = 'removeBtn';
+// listenerRemove(idRemove);
 
-const idEdit = 'editBtn';
-listenerEdit(idEdit);
+// const idEdit = 'editBtn';
+// listenerEdit(idEdit);
 
-const idSave = 'saveBtn';
-listenerSave(idSave);
+// const idSave = 'saveBtn';
+// listenerSave(idSave);
