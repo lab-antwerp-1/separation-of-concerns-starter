@@ -2,15 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/public/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./client/public/icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Your List</title>
 
     <link href="./client/styles/index.css" rel="stylesheet" />
   </head>
+
   <body>
-    <div id="root"></div>
-    <img src="planning/image/logoAH.png" alt="AH Logo">
+
+    <div class="heading">
+      <img src="client\public\logo.svg" alt="Col Group" class="logo">
+      <h1 class="header1">Shopping Center</h1>
+    </div>
+
+
+    <div class="home">
+      <div class="intro">
+        <h2 class="header2">Welcome To Your Shopping List</h2>
+        <p class="instructions">
+          Feel free to make your own shopping list!<br />
+          You can add, delete or edit the items inside the list.
+          <br />
+        </p>
+      </div>
+
+      <!-- The List (textbox + buttons)-->
+      <form class="form" id="input-area">
+        <label for="prod">Product Name:</label><br>
+        <input class="input" type="text" id="productName" placeholder="Add product" >
+        <!--  Product Exist message -->
+        <div id="productExist" class="productExist"></div><br>
+        <input type="button" class="button" value="Add" id="addBtn" />
+        <input type="button" class="button" value="Remove" id="removeBtn" />
+        <input type="button" class="button" value="Edit" id="editBtn" /> <br> <br>
+        <label for="prod" style="display: none;" id="editLabel">Product New Name:</label><br>
+        <input class="input" type="text" id="editProductName" placeholder="Edit product" style="display: none;" >
+        <input class="button" type="button"  value="Save" id="saveBtn" style="display: none;" />
+      </form> 
+      
+      <!-- The list Menu -->
+      <div id="list" class=" listMenu"></div>
+
+    </div>
+    <!-- end of page body -->
 
     <script type="module" src="./client/src/init/index.js"></script>
   </body>
