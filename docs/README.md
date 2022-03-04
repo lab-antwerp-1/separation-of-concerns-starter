@@ -17,11 +17,15 @@
 - public
 - src
   - components
+    - [render-list.js](#clientsrccomponentsrender-listjs)
   - handlers
+    - [add-product.js](#clientsrchandlersadd-productjs)
   - init
     - [index.js](#clientsrcinitindexjs)
   - listeners
+    - [listener-add.js](#clientsrclistenerslistener-addjs)
   - logic
+    - [is-product-exist.js](#clientsrclogicis-product-existjs)
 - styles
 - [data.js](#clientdatajs)
 
@@ -39,9 +43,17 @@
 
 ## /components
 
+<details><summary><a href="../../client/src/components/render-list.js" id="clientsrccomponentsrender-listjs">../client/src/components/render-list.js</a></summary>
+
+</details>
+
 ---
 
 ## /handlers
+
+<details><summary><a href="../../client/src/handlers/add-product.js" id="clientsrchandlersadd-productjs">../client/src/handlers/add-product.js</a></summary>
+
+</details>
 
 ---
 
@@ -55,9 +67,17 @@
 
 ## /listeners
 
+<details><summary><a href="../../client/src/listeners/listener-add.js" id="clientsrclistenerslistener-addjs">../client/src/listeners/listener-add.js</a></summary>
+
+</details>
+
 ---
 
 ## /logic
+
+<details><summary><a href="../../client/src/logic/is-product-exist.js" id="clientsrclogicis-product-existjs">../client/src/logic/is-product-exist.js</a></summary>
+
+</details>
 
 ---
 
