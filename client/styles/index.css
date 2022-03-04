@@ -8,7 +8,8 @@
     monaco,
     consolas,
     'Liberation Mono',
-    'Courier New', monospace;
+    'Courier New',
+    monospace;
   --body-font-size: 1rem;
   --body-font-weight: 400;
   --body-line-height: 1.5;
