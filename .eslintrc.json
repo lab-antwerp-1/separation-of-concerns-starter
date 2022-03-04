@@ -112,7 +112,7 @@
     ],
     "camelcase": [2, { "properties": "never" }],
 
-    "prettier/prettier": ["error"],
+    "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
 
     "prefer-arrow/prefer-arrow-functions": ["warn"],
 
