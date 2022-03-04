@@ -53,7 +53,7 @@ h1,
 
 .form {
   /* background: linear-gradient(to bottom right, #832e06 0%, #cf7d1e 100%); */
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 0;
   width: 100%;
